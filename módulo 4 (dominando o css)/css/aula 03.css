@@ -1,0 +1,54 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+body{
+	background-color: yellow;
+}
+
+html,body{
+	height: 100%
+}
+
+/*TABELA*/
+table{
+	margin: 0 auto;
+	width: 900px;
+	border: 1px solid;
+}
+
+table > thead > tr > th{
+	color: blue;
+	border: solid 1px black;
+}
+
+table tbody tr td{
+	text-align: center;
+	border: solid 1px black;
+	color: white;
+	background-color: green;
+}
+
+hr{
+	border: 1px solid;
+}
+/*FIM TABELA*/
+
+/*ASSUNTO 2*/
+.fixo{
+	background-color: #069;
+	width: 100%;
+	height: 200px;
+	margin-top: 5px;
+	position: fixed;
+}
+
+.corpo{
+	background-color: green;
+	border: 1px solid;
+	width: 100%;
+	height: 1400px;
+}
+

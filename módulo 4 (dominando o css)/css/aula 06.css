@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+hr{
+  border: solid;
+}
+
+.teste,.teste1,.teste2{
+    width: 200px;
+    height: 200px;
+    background-color: dimgray;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.teste1{
+    background-color: dodgerblue;
+}
+
+.teste2{
+    background-color: green;
+}
+
+/* PSEUDO CLASSE TIPOS HOVER e ACITIVE */
+.teste:active,.teste1:hover,.teste2:hover{  
+    background-color: red;
+    background-image: url(../imagens/ironcat.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: double 5px;
+}
+
+.teste4:focus{
+    background-color: turquoise;
+    margin-top: 3px;
+}
+
+textarea{
+    display: block;
+    margin: 10px;
+}
+
+.link:link{
+    color: orange;
+}
+

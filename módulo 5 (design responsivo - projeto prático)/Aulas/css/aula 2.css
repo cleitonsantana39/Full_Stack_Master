@@ -1,0 +1,28 @@
+/* CONFIGURAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* end configurações */
+
+.box{
+    width: 33.3%;
+    height: 300px;
+    background-color:green;
+    float: left;
+    border: black solid 1px;
+}
+
+@media screen and (max-width: 580px) {
+    .box{
+        width: 100%;
+    }
+}
+
+
+    

@@ -1,0 +1,63 @@
+body{
+    background-color: blanchedalmond;
+}
+
+html,body{ 
+    height: 100%;
+}
+
+h2, h1{
+    text-align: center;
+    border: solid 1px;
+}
+
+hr{
+    border: solid 3px;
+}
+
+.bg{   /* MANIPULANDO BACKGROUND */
+    width: 100%;
+    height: 400px;
+    background-image: url(../imagens/ironcat.jpg);
+    background-repeat: repeat-y repeat-x;
+    background-position: 50% 50%;
+    background-color: blue;
+    background-size: 200px;
+    border-radius: 50px 50px;
+    text-align: center;
+    border: solid 2px;
+}
+
+.box{   /* DISPLAY */
+    width: 900px;
+    background-color: turquoise;
+    margin: 0 auto;
+    border: dashed;
+    text-align: center;
+}
+
+.item > p{
+    border: solid 2px;
+}
+
+.item >section{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: slategrey;
+    width: auto; 
+    /* height: 40px */; 
+}
+
+.div-1{
+    background-color: violet;
+    border: solid 2px;
+}
+
+.div-2 >p{
+    margin: 4px;
+    display: inline-block;
+    border: solid;
+    width: 200px;
+}
+

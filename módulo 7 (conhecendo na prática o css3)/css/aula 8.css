@@ -1,0 +1,27 @@
+/* CONFIGURAÇÃO DA PÁGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* --------------------------- FIM CONFIGURAÇÃO DA PÁGINA ----------------------------------- */
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    /* align-items: center; */
+}
+
+article{
+    background-color: gray;
+    /* order: 1; */
+}
+
+aside{
+    background-color: greenyellow;
+    /* order: 2; */
+}

@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	width: 500px;
+	background-color: red;
+	margin: 30px auto;
+	text-align: center;
+	border: 3px solid black; 
+}
+
+.menu > a{
+	color: white;
+	font-size: 20px;
+	margin: 0 5px;
+	border: 1px solid black; 
+}

@@ -1,0 +1,36 @@
+/* CONFIGURAÇÃO DA PÁGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* -------------------------------  fim configuração da página  ------------------------------- */
+
+.box h2{
+    color: gray;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.box p{
+    color: green;
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.box2 h2{
+    color: orange;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.box2 p{
+    color: green;
+    font-size: 17px;
+    font-style: italic;
+}

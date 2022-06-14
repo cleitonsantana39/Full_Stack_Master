@@ -1,0 +1,252 @@
+/* CONFIGURAÇÃO PADRÃO */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+}
+/* --------------------- FIM CONFIGURAÇÃO PADRÃO -------------------------- */
+
+
+/* FONTES */
+@font-face{      
+    src: url(../fontes/YujiHentaiganaAkebono-Regular.ttf);
+    font-family: "fonte 2";
+}
+
+@font-face{
+    src: url(../fontes/Pushster-Regular.ttf);
+    font-family: "fonte 1";
+}
+
+/* ------------------------   FIM DAS FONTES ------------------------------ */
+
+
+/* HEADER */
+.center{
+    max-width: 1100px;
+    padding:0 2%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #1877f2;
+    padding: 8px 0;
+}
+
+header .logo{  /* facebook */
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+header form{
+    float: right;
+}
+
+header .form-element{
+    margin-right: 15px;
+    float: left;
+}
+
+header .form-element p{ 
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+    margin: 4px;
+}
+
+header .form-element input[type=submit]{  /* botão Enviar */
+    background:#1877f2;
+    border: black 1px solid;
+    cursor: pointer;
+    color: white;
+    padding: 3px 10px;
+    margin-top: 10px;
+    border-radius: 15%;
+}
+
+header .form-element input[type=submit]:hover{  /* botão Enviar em pseudo classe */
+    background-color: rgb(255, 0, 106);
+    color: black;
+}
+
+header .form-element input:focus{ /* campos email e senha */
+    background-color: yellow;
+    color: black;
+}
+
+/* responsivo do header */
+@media screen and (max-width:600px) {
+    header .logo{
+        text-align: center;
+        margin: 0 40%;
+    }
+    
+} /* fim responsivo */
+
+/* ----------------------------FIM HEADER --------------------------------- */
+
+/* SECTION MAIN */
+section.main{
+    background: #f0f2f5;
+    padding: 40px 0;
+}
+
+section .img-pessoas{
+    float: left;
+    width: 70%;
+}
+
+/* responsivo section */
+@media screen and (max-width:634px) {
+    .img-pessoas{
+        display: none;
+    }
+    
+    section .center .abrir-conta{
+        width: 100%;
+    }
+
+    .w100 h2{
+        margin-top: 10px;
+    }
+
+} /* fim responsivo section */
+
+section img{   /* imagem */
+    max-width: 100%;
+}
+
+section .abrir-conta{
+    float: left;
+    width: 30%;
+}
+
+section .abrir-conta h2{
+    color: black;
+    font-size: 26px;
+}
+
+section .abrir-conta h3{
+    font-size: 17px;
+    font-weight: normal;
+    margin: 3px 0;
+
+}
+
+section .criar-conta{
+    margin-top: 10px;
+ 
+}
+
+section .w50{  
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+
+section .w100{
+    float: left;
+    width: 100%;
+}
+
+section .criar-conta input{
+    width: 100%;
+    margin-top: 8px;
+}
+
+section .criar-conta input[type=text], 
+section .criar-conta input[type=email],
+section .criar-conta input[type=password]{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+section .criar-conta input[type=submit]{  /* botão cadastrar */
+    height: 40px;
+    background-color: rgb(78, 168, 78);
+    color: white;
+    cursor: pointer;
+    border: 1px black solid;
+    max-width: 200px;
+    font-size: 19px;
+    font-family: "fonte 2";
+    font-weight: bold;
+    border-radius: 8px;
+    display: block;
+    margin:  5px auto;
+}
+
+section select.nascimento{  /* 3 botões de nascimento */
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio h3{
+    display: inline-block;
+}
+
+.input-radio input[type=radio]{
+    width: auto !important;
+    display: inline-block;
+
+}
+
+.input-radio{
+    float: left;
+    width: 50%;
+    margin: 8px 0;
+}
+/* ------------------------------- FIM SECTION MAIN ---------------------------------- */
+
+/* SECTION LÍNGUAS */
+
+section.linguas{
+    background: white;
+    padding: 30px 0;
+}
+
+section.linguas .center{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc !important;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+section.linguas .center{
+    border: hidden;
+    text-align: center;
+}
+
+section.linguas .center a{
+    color: #365899;
+    text-decoration:none;
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+section.linguas .center a.selecao-linguas{
+    color: #737373;
+}
+
+section.linguas .center2{
+    padding-top: 20px;
+    text-align: center;
+}
+
+section.linguas .center2 a{  /* centralizar loren  */
+    margin-right: 10px;
+}
+
+
+/* ------------------------------- FIM SECTION LÍNGUAS --------------------------------- */
+
+.clear{clear: both;}  /* limpa a flutuação do float */

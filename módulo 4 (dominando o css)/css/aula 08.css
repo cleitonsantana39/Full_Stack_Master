@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+/* APLICANDO FÓRMULAS */
+.parent{
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+    background-color: grey;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.parent > div:nth-of-type(2n + 1) > .item {    /* fórmula */
+    background-color: red;
+}
+
+.parent > div:hover > .item{
+    background-image: url(../imagens/ironcat.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    border: dashed 2px;
+    background-position:center;
+}

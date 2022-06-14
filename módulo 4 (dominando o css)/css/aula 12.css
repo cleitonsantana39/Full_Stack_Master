@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+}
+
+@font-face{  /* fonte 1 */
+    src: url(../fontes/1/DancingScript-VariableFont_wght.ttf);
+    font-family: "fonte 1";
+}
+
+@font-face{  /* fonte 2 */
+    src: url(../fontes/2/RampartOne-Regular.ttf);
+    font-family: "fonte 2";
+}
+
+h2{
+    font-family:"fonte 2";
+    font-size: 15px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: "fonte 2";
+}
+
+hr{
+    border: 2px solid;
+}
+
+.fontes-externas{
+    background-color: brown;
+    color: white;
+}
+
+/* IMPORT NO CSS */
+section {
+    background-color: turquoise;
+    border: 2px solid;
+    margin-bottom: 10px;
+
+}
+
+.box p{
+    font-family: "fonte 2";
+
+}
+
+.texto{   /* sobre !import */
+    font-family: "fonte 1" !important;
+}
+
+/* ALTERAR FONTE DE DENTRO DOS CAMPOS DE FORMULÁRIOS */ 
+.s2{
+    background-color: gray;
+    text-align: center;
+}
+
+form *{
+    font-family: "fonte 2";
+    color: rgb(230, 14, 14);
+    border: dashed 1px black;
+}

@@ -1,0 +1,42 @@
+/* CONFIGURAÇÕES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}       
+ /* fim configurações */
+
+
+ /* CONFIGURAÇÕES NO HEADER */
+ header.principal{                    /* header */
+     width: 100%;
+     padding: 20px 0;
+     background-color: #ccc;
+ }
+
+ header.principal > nav{
+     text-align: center;
+ }
+
+ header.principal li{
+     display: inline-block;
+     margin: 0 25px;
+ }
+
+ @media screen and (max-width: 500px) {  /* responsivo */
+     header.principal > nav > ul > li {
+         display: block;
+     }
+
+     header.principal{
+         background-image: url(../imagens/spidertocat.png)
+         ;
+         background-repeat:no-repeat;
+         background-size: 100px
+     }
+     
+ }

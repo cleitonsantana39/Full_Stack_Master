@@ -1,0 +1,73 @@
+html,body{
+    height: 100%;
+}
+
+/* FORMULÁRIO */
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: cadetblue;
+    text-align: center;
+    border: 2px solid;
+}
+
+legend{   /* título do forumário */
+    text-align: left;
+    background-color: crimson;
+    color: white;
+    border: double 5px black;
+}
+
+form input[type=text]{  /* campos nome e Email */
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    cursor: pointer;
+}
+
+input:focus{  /* cor no campo selecionado */
+    background-color:yellow;
+}
+
+select{  /* caixa de idade */
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    width: calc(80% + 26px);
+    cursor: pointer;
+}
+
+ form select option[disabled]:nth-of-type(1){
+    color: red;
+}
+
+.radio-input{  /* campo cidade */
+    text-align: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.checkbox{  /* campo alimento */
+    text-align: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+form input[type=submit]{
+    width: 100px;
+    height: 40px;
+    cursor:all-scroll;
+}
+
+form input[type=submit]:hover{
+    background: yellow;
+}
+
+div > textarea{   /* campo de texto */
+    resize: none;
+    width: 80%;
+    height: 200px;
+    cursor: pointer;
+}

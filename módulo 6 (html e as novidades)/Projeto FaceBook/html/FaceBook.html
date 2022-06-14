@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="descrição do site">
+        <meta name="keywords" content="palavra, chave, por, virgula">
+        <meta name="author" content="Cleiton Santana">
+
+        <title>FaceBook</title>
+
+        <link rel="stylesheet" href="../css/FaceBook.css">
+        <link rel="shortcut icon" href="../favicon/facebook.ico" type="image/x-icon">
+        
+
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+
+            <div class="center">
+
+                <div class="logo" title="div do logo">
+
+                  <h2>FaceBook</h2>
+
+                </div>
+
+                    
+
+                <form class="form-login" title="formulário de login" method="post">
+
+                    <div class="form-element"  title="div do email ou telefone"> <!-- campo email -->
+
+                        <p>email ou telefone</p>
+                        <input type="email">
+
+                    </div>
+
+                    <div class="form-element" title="div da senha">  <!-- campo senha -->
+
+                        <p>senha</p>
+                        <input type="password">
+
+                    </div>
+
+                    <div class="form-element" title="div do botão"> <!-- botão Enviar -->
+
+                        <input type="submit" name="acao" value="Enviar">
+                        
+                    </div>
+
+                </form>
+                <div class="clear"></div>  <!-- limpar flutuação do float -->
+
+                
+
+            </div> <!-- center -->
+
+        </header>
+        <!-- ------------------------- FIM DO HEADER ------------------------------ -->
+        
+        <!-- MAIN -->
+        <section class="main">
+
+            <div class="center">
+
+                <div class="img-pessoas">
+
+                    <img src="../imagens/rede do facebook 534 x 186.PNG" alt="">
+
+                </div>
+
+                <div class="abrir-conta" title="formumário abrir-conta">
+
+                    <h2>Abra sua conta</h2>
+                    <h3>É gratuito e sempre será</h3>
+
+                    <form class="criar-conta">
+
+                        <div class="w50"> <!-- campo 1 nome -->
+
+                            <input type="text" placeholder="Nome">
+
+                        </div>
+
+                        <div class="w50"> <!-- campo 2 sobrenome -->
+
+                            <input type="text" placeholder="Sobrenome">
+                            
+                        </div>
+
+                        <div class="w100"> <!-- campo 3 e-mail -->
+
+                            <input type="email" placeholder="E-Mail">
+                            
+                        </div>
+
+                        <div class="w100">  <!-- campo 4 senha -->
+
+                            <input type="password" placeholder="senha">
+                            
+                        </div>
+
+                        <div class="w100"> <!-- nascimento -->
+
+                            <h2>Data de Nascimento:</h2>
+
+                            <select name="nascimento-dia" class="nascimento"> <!-- dia -->
+                                <?php   <!-- php não pegou -->
+                                    for($i = 1; $i <= 31; $i++){
+                                ?>
+                                <option value="<?php echo $i; ?>"> <?php echo $i; ?></option>
+                                <?php  } ?>
+                            </select>
+
+                            <select name="nascimento-mes" class="nascimento"> <!-- mês -->
+                                <option value="0">Junho</option>
+                            </select>
+
+                            <select name="nascimento-ano" class="nascimento"> <!-- ano -->
+                                <option value="0">1900</option>
+                            </select>
+
+                        </div> <!-- fim nascimento -->
+
+                        <div class="w100">  <!-- sexo -->
+                            
+                            <div class="input-radio">
+
+                                <input type="radio" value="masculino" name="sexo">
+                                <h3>Masculino</h3>
+
+                            </div>
+
+                            <div class="input-radio">
+
+                                <input type="radio" value="feminino" name="sexo">
+                                <h3>Feminino</h3>
+
+                            </div>
+                            <div class="clear"></div>  <!-- limpar flutuação do float -->
+
+                        </div>
+
+                        
+                        <div class="w100">  <!-- botão cadastrar -->
+
+                            <input type="submit" name="acao" value="Cadastrar">
+                            
+                        </div>
+
+                        <div class="clear"></div>  <!-- limpar flutuação do float -->
+
+                    </form> <!-- fim criar-conta -->
+
+                </div> <!-- fim abrir-conta -->
+               
+               
+                <div class="clear"></div>  <!-- limpar flutuação do float -->
+
+            </div> <!-- fim center -->
+
+
+        </section> 
+        <!----------------------------------- FIM MAIN ------------------------------------------>
+        
+        <section class="linguas">
+
+                    <div class="center">
+
+                        <a class="selecao-linguas" href="#" Português (BR)>Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        <a  href="#">Português (BR)</a>
+                        
+                    </div> <!-- fim center -->
+
+                    <div class="center2">
+
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        <a href="#">Lorem</a>
+                        
+                    </div> <!-- fim center2 -->
+
+        </section>
+        <!-- -------------------------- FIM SECTION LINGUAS ----------------------------------- -->
+
+    </body>
+
+</html>

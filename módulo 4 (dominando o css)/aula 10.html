@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Aula 10</title>
+
+        <link rel="shortcut icon" href="../módulo 4 (dominando o css)/imagens/casa.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="../módulo 4 (dominando o css)/css/aula 10.css">
+
+    </head>
+
+    <body>
+
+        <!-- FORMULÁRIO -->
+        <form action="">
+
+            <fieldset>  <!-- conjunto de formúlario -->
+
+                <legend>Meu formulário</legend>
+
+                <div> <!-- campo nome -->
+
+                    <input type="text" name="nome" placeholder="digite seu nome">
+
+                </div>
+
+                <div>  <!-- campo Email -->
+
+                    <input type="text" name="email" placeholder="digite o e-mail">
+
+                </div>
+
+                <div>  <!-- campo opções de idade -->
+
+                    <select name="lista de idade"> <!-- caixa de opções -->
+
+                        <option disabled selected>Qual sua idade?</option>
+                        <option value="20">20 anos</option>
+                        <option value="30">30 anos</option>
+                        <option value="40">40 anos</option>
+                        <option value="50+">50 anos ou +</option>
+
+                    </select>
+
+                </div>
+
+                <h2>Qual sua cidade?</h2>
+
+                <div class="radio-input">  <!-- campo radio -->
+
+                    <div>
+                        <input type="radio" name="cidade"
+                        value="Florianópolis">
+                        <span>Florianópolis</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="cidade" value="São Paulo">
+                        <span>São Paulo</span>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="cidade" value="Recife">
+                        <span>Recife</span>
+                    </div>
+
+                </div>  <!-- fim campo radio -->
+
+                <h2>Qual seu alimento?</h2>
+
+                <div class="checkbox">  <!-- campo checkbox -->
+
+                    <div>
+                        <input type="checkbox" name="frutas[]" value="Frutas"/>
+                        <span>Frutas</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="frutas[]" value="Fast Food"/>
+                        <span>Fast Food</span>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="frutas" value="Saladas"/>
+                        <span>Saladas</span>
+                    </div>
+
+                </div>
+
+                <div>  <!-- campo de texto -->
+
+                    <textarea name placeholder="digite seu texto" name="observação" id="" cols="20" rows="30"></textarea>
+
+                </div>
+
+                <div>   <!-- botão enviar -->
+
+                    <input type="submit" value="Enviar" name="acao">
+
+                </div>
+
+            </fieldset>
+            
+        </form> 
+
+    </body>
+
+</html>

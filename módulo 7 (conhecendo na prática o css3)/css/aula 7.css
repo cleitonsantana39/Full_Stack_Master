@@ -1,0 +1,32 @@
+/* CONFIGURAÇÃO DA PÁGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* -------------------------- FIM CONFIGURAÇÃO DA PÁGINA -------------------------------------- */
+
+.table{
+    display: table;
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.table-row{
+    display: table-row;
+}
+
+.table-cel{
+    display: table-cell;
+    border: solid 1px black;
+    padding: 10px;
+    font-weight: bold;
+    height: 100px;
+    vertical-align: middle;
+    text-align: center;
+}

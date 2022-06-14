@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(132, 189, 206);
+    background-image: url(../imagens/catstello.png);
+    background-repeat: repeat-x repeat-y;
+    background-size: 100px;
+}
+
+.teste{
+    background-color: rgb(47, 0, 255);
+    max-width: 50%;
+    border-collapse: collapse;
+    
+}
+
+.caixaTexto{
+    background-color: darkgoldenrod;
+    font-size: 30px;
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.menu{
+    border: solid;
+    max-width: 50%;
+
+}
+
+.menu a{
+    border: solid 1px;
+    color: #131c24;
+    min-width: 50%;
+    border-collapse: collapse;
+}
+
+.texto{
+    background-color: salmon;
+    border: solid;
+    margin: 10px;
+    letter-spacing: 30px;
+    max-height: 40%;
+    overflow:auto;
+}
+
+.hr{
+    border: dimgray;
+}
+
+html,body{
+    height: 100%;
+}
+
+.imagem{
+   background-image: url();
+}

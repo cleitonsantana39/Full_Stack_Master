@@ -1,0 +1,33 @@
+body{
+	background-color: yellow;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*div artigo*/
+.artigo{
+	margin: 40px auto;
+	border: 1px solid;
+	width: 1280px;
+}
+
+.artigo h1{
+	color: rgb(164, 166, 123);
+	text-align: center;
+	font-family: arial;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.artigo p{
+	background-color: red;
+	color: white;
+	font-family: tahoma;
+	text-align: justify;
+	font-variant:small-caps;
+	line-height: 20px;
+}
+

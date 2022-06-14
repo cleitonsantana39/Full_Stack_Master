@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background-color: gray;
+}
+
+a[href]{
+	background-color: yellow;
+	color: rgb(0,0,0); /*cor preta*/
+	
+}
+
+a[href="http://www.google.com"]{
+	background-color: red;
+}
+
+a[href*="dankicode"]{
+	font: 10px;
+	background-color: blue;
+}

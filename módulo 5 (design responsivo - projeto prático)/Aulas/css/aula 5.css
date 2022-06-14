@@ -1,0 +1,47 @@
+/* CONFIGURATIONS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+/* end configurations */
+
+.slider{
+    width: 50%;
+    margin: 0 auto;
+    max-width: 700px;
+    height: 500px;
+    border: black 1px solid;
+    position: absolute;
+}
+
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    background-color: gray;
+
+}
+
+.one{
+    background-color: green;
+    z-index: 3;
+}
+
+.two{
+    background-color: grey;
+    z-index: 2;
+    left: 10%;
+}
+
+.three{
+    background-color: yellow;
+    z-index: 1;
+    left: 20%;
+}

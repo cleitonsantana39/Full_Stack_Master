@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*TORNA PADRÃO NO CSS*/
+html,body{
+	height: 100%;
+}
+
+.artigo_1{
+	width: 500px;
+	color: red;
+	border: solid 1px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.artigo_2{
+	width: 40%;
+	color: green;
+	border: solid 1px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.artigo_3{
+	width: 500px;
+	color: gray; 
+	border: solid 1px;
+	margin-bottom: 5px;
+	display: inline-block;
+}

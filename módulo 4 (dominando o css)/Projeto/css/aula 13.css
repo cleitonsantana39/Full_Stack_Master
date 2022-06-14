@@ -1,0 +1,99 @@
+/* RESETANDO A PÁGINA */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;  
+    overflow-x: hidden;
+}
+
+/* MENU */
+.s1{
+    border: solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo{
+    width: 50%;
+}
+
+header{
+    padding: 20px 0;
+    height: 200px;
+
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: bold;
+    margin-right: 15px;
+}  
+
+/* IMAGENS E CÍRCULO VERDE */
+section.sobre{
+    position: relative;   /* estudar */
+    height: calc(100% - 200px);
+}
+
+.extra{
+    position: absolute;   /* estudar */
+    bottom: -450px;
+    right: -450px;
+    width: 900px;
+    height: 900px;
+    background-color: #2a7242;
+    border-radius: 50%;
+}
+
+.rs{
+    right: 450px;
+    position:absolute;
+    top: 200px;
+}
+
+.rs img{
+    display: block;
+}
+
+/* TEXTO STAR BUCKS */
+div.texto{
+    
+    padding-left: 100px;
+    width: 800px;
+}
+
+div.texto h1{
+    font-size: 40px;
+   
+}
+
+div button{  /* botão */
+    background-color: #2a7242;
+    margin: 10px;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;    
+    border: 0;
+}
+
+
+
+

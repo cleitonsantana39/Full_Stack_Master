@@ -1,0 +1,28 @@
+/* CONFIGURAÇÃO DA PÁGINA */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+/* ----------------------------- FIM CONFIGURAÇÃO DA PÁGINA ------------------------------------ */
+
+.box{
+    width: 100%;
+    padding: 30px 2%;
+    background-color: brown;
+    height: 100px;
+    border: black 1px solid;
+    position: relative;
+}
+
+.box p{
+    color: white;
+    font-size: 13px;
+    border-bottom: violet 1px solid;
+    display: inline;
+    word-wrap: break-word;
+}

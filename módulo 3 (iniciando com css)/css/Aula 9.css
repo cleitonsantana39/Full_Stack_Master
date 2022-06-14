@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	background-color: red;
+}
+
+.artigo > h1{
+	text-align: center;
+	color: white;
+}

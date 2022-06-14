@@ -1,0 +1,46 @@
+*{
+	margin: 5px 3px;
+	padding: 0;
+}
+
+/*linha horizontal*/
+hr{
+	border: solid 1px;
+} 
+
+/*LISTA DESORDENADA*/
+.lista1, .lista2{        
+	list-style: inside;
+	border: solid 1px;
+	width: 150px;
+	margin left: 20px;
+	background-color: orange;
+	display: inline-block;
+}
+  
+.lista1 > ul, .lista2 > ul{
+	color: green;
+}
+/*FIM LISTA DESORDENADA*/
+
+/*LISTA ORDENADA*/
+.LO{
+	width: 150px;
+	border: dashed 1px;
+	list-style: inside;
+	background-color: blue;
+	color: white;  /*cor da letra*/	
+	display: inline-block;	
+}
+
+/*.posição{
+	position: relative;
+	top: -265px;
+	left: 160px;
+}*/
+
+.LO > h4{
+	text-align: center;
+}
+
+
