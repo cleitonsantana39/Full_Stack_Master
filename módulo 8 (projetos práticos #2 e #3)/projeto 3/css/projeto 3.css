@@ -287,7 +287,6 @@ header nav ul{  /* apaga o marcador da lista */
 
     .parte-01 .container p{
         margin-right: 15px;
-        color: red;
     }
 
 }
@@ -298,9 +297,6 @@ header nav ul{  /* apaga o marcador da lista */
         line-height: 100px;
     }
 
-  
-    
-    
 }
 /*--- fim parte 01 --- */
 
@@ -355,7 +351,7 @@ header nav ul{  /* apaga o marcador da lista */
 
 }
 
-.bolinhas{
+.bolinhas{ /* 03 bolinhas */
     float: left;
     width: 100%;
     margin-top: 8px;
@@ -393,6 +389,24 @@ header nav ul{  /* apaga o marcador da lista */
 
 }
 /* ---fim parte 02 --- */
+
+@media screen and (max-width: 500px) { /* responsivo geral */
+    .parte-01{
+        width: 100%;
+    }
+
+    .parte-01 .container{
+        margin-right: 10%;
+    }
+
+    .parte-01 p{
+        margin-top: -5%;
+    }
+
+    .parte-02{
+        width: 100%;
+    }
+}
 
 /* ----------------- FIM SESSÃO 03 --------------- */
 
