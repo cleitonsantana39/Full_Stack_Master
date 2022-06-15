@@ -246,10 +246,6 @@ header nav ul{  /* apaga o marcador da lista */
    
 }
 
-.sessao-3:hover{ /* retirar */
-    opacity: 0.7;
-    background-color: #FF703D;
-}
 
 /* parte 01 */
 .parte-01{  
@@ -409,6 +405,74 @@ header nav ul{  /* apaga o marcador da lista */
 }
 
 /* ----------------- FIM SESSÃO 03 --------------- */
+
+/* INÍCIO SESSÃO 04 */
+
+section.sessao-4{
+    background-color: #472563;
+    padding: 100px 0;
+
+}
+
+section .form{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-left: 1%;
+}
+
+.form form input[type=text]{
+    width: 100%;
+    max-width: 480px;
+    height: 40px;
+    margin-left: 1%;
+}
+
+.form form textarea{
+    width: 100%;
+    max-width:480px ;
+    padding: 15px;
+    height: 160px;
+    margin-left: 1%;
+}
+
+
+
+input:focus, textarea:focus{
+    background-color: yellow;
+}
+
+
+
+.form h2{
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.form p{
+    font-size: 15px;
+    max-width: 400px;
+    text-align:justify;
+}
+
+fieldset{  
+    border: 1px solid white;
+}
+
+legend{
+    margin-left: 15px;
+    padding: 5px 5px;
+}
+
+
+section.sessao-4:hover{  /* retirar */
+    opacity: 0.8;
+
+}
+
+
+
+/* -------------------- FIM SESSÃO 04 ---------------- */
 
 
 /* LIMPAR A FLUTUAÇÃO DO FLOAT */
