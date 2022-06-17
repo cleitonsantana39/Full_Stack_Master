@@ -414,11 +414,16 @@ section.sessao-4{
 
 }
 
+/* subsessão formulário */
 section .form{
     float: left;
     width: 50%;
     color: white;
-    padding-left: 1%;
+    padding-left: 0.5%;
+}
+
+.form:hover{  /* retirar */
+    border: dashed black;
 }
 
 .form form input[type=text]{
@@ -436,13 +441,9 @@ section .form{
     margin-left: 1%;
 }
 
-
-
 input:focus, textarea:focus{
     background-color: yellow;
 }
-
-
 
 .form h2{
     font-weight: 200;
@@ -457,6 +458,7 @@ input:focus, textarea:focus{
 
 fieldset{  
     border: 1px solid white;
+    margin-right: 1%;
 }
 
 legend{
@@ -464,9 +466,46 @@ legend{
     padding: 5px 5px;
 }
 
-
 section.sessao-4:hover{  /* retirar */
     opacity: 0.8;
+
+}
+
+.form form input[type=submit]{
+    background-color: #FF703D;
+    width: 165px;
+    height: 44px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+/* subsessão do mapa */
+.mapa{
+    float: left;
+    color: white;
+    width: 480px;
+    height: 480px;
+}
+
+.mapa:hover{ /* retirar */
+    border: 1px solid black;
+}
+
+.mapa h2{
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: white;
+    border: 5px solid gray;
+
 
 }
 
