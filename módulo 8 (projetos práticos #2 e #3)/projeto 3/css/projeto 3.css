@@ -419,7 +419,7 @@ section .form{
     float: left;
     width: 50%;
     color: white;
-    padding-left: 0.5%;
+    padding-left: 10px;
 }
 
 .form:hover{  /* retirar */
@@ -427,14 +427,14 @@ section .form{
 }
 
 .form form input[type=text]{
-    width: 100%;
+    width: 90%;
     max-width: 480px;
     height: 40px;
     margin-left: 1%;
 }
 
 .form form textarea{
-    width: 100%;
+    width: 90%;
     max-width:480px ;
     padding: 15px;
     height: 160px;
@@ -454,6 +454,7 @@ input:focus, textarea:focus{
     font-size: 15px;
     max-width: 400px;
     text-align:justify;
+    padding-right: 10px;
 }
 
 fieldset{  
@@ -471,7 +472,7 @@ section.sessao-4:hover{  /* retirar */
 
 }
 
-.form form input[type=submit]{
+.form form input[type=submit]{  /* botão */
     background-color: #FF703D;
     width: 165px;
     height: 44px;
@@ -483,33 +484,54 @@ section.sessao-4:hover{  /* retirar */
 }
 
 /* subsessão do mapa */
-.mapa{
+.map-wraper{
     float: left;
+    width: 50%;
     color: white;
-    width: 480px;
-    height: 480px;
+    /* padding: 0 10px; */
 }
 
-.mapa:hover{ /* retirar */
-    border: 1px solid black;
-}
-
-.mapa h2{
+.map-wraper h2{
     font-size: 23px;
     font-weight: 300;
 }
 
-.map{
+.map-wraper3{
     width: 100%;
-    height: 100%;
+    max-width: 480px;
+    position: relative;
+    float: left;
     margin-top: 10px;
-    background-color: white;
-    border: 5px solid gray;
-
-
 }
 
+.map-wraper2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 100%;
+}
 
+.map{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+    background-color: white;
+    border: 5px solid rgb(200, 200, 200);
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 768px){  /* responsivo mapa */
+    .form{
+        width: 100%;
+        float: none;
+    }
+
+    .map-wraper{
+        width: 100%;
+    }
+}
 
 /* -------------------- FIM SESSÃO 04 ---------------- */
 
